@@ -2485,6 +2485,7 @@ dependencies = [
 name = "tauri-vue-starter"
 version = "0.0.0"
 dependencies = [
+ "anyhow",
  "serde",
  "serde_json",
  "tauri",
