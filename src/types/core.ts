@@ -9,3 +9,10 @@ export interface Currency {
 }
 
 export type CurrencyType = keyof Currency
+
+export interface ExchangeItem {
+  id: number
+  name: string
+  price: number
+  count: number
+}
